@@ -86,6 +86,9 @@ Repository top-level (actual structure):
 │   ├── predict.py
 │   ├── train.py
 │   └── utils.py
+├── synthetic_data_generator
+│   ├── generate_bull_market.py
+│   └── generate_demo_cycle.py
 └── ui
     └── app.py
 ```
