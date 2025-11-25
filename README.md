@@ -1,7 +1,7 @@
 # Financial Time-Series Predictor
 AI-driven hybrid LightGBM–Ridge model for dynamic financial time-series allocation with Streamlit UI.
 
-![Banner](docs/images/banner.png)
+![Banner](assets/banner.png)
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/github/license/Simarbir2112006/financial-time-series-predictor)](LICENSE)
@@ -70,6 +70,8 @@ Repository top-level (actual structure):
 ├── artifacts
 │   ├── hull_model.pkl
 │   └── selected_features.pkl
+├── assets
+│   └── banner.png
 ├── data
 │   ├── bull_market_test.csv
 │   ├── demo_market_cycle.csv
