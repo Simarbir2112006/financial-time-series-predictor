@@ -75,8 +75,6 @@ Repository top-level (actual structure):
 │   ├── demo_market_cycle.csv
 │   ├── test.csv
 │   └── train.csv
-├── generate_bull_market.py
-├── generate_demo_cycle.py
 ├── requirements.txt
 ├── src
 │   ├── __pycache__/
