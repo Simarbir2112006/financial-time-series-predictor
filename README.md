@@ -202,7 +202,7 @@ python generate_bull_market.py
 
 ## 7 — Walkthrough
 
-![Dashboard](assets/walkthorugh.mp4)
+![Dashboard]([assets/walkthorugh.mp4](https://github.com/user-attachments/assets/f3967d47-1dcb-45e3-8c8e-c382727288d1))
 
 ---
 
@@ -227,7 +227,7 @@ The repository is implemented with a modular code organization that blends objec
 
 ---
 
-## 9 — UML & Diagrams (placeholders)
+## 9 — UML
 
 ![UML](assets/financial-time-series-predictor-pipleine.drawio.png)
 
