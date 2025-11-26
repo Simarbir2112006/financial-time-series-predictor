@@ -1,16 +1,31 @@
 import pandas as pd
 import numpy as np
-import os
+import os, sys
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(ROOT_DIR)
+
 from src.config import TRAIN_FILE
 
 def generate_market_cycle():
     print(">>> GENERATING DEMO SCENARIO...")
     
     # 1. Get Template from Train Data
-    if not os.path.exists(TRAIN_FILE):
-        print(f"Error: {TRAIN_FILE} not found.")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    repo_root = os.path.join(base_dir, "..")
+
+    train_file_path = TRAIN_FILE
+    if not os.path.isabs(TRAIN_FILE):
+        train_file_path = os.path.join(repo_root, TRAIN_FILE)
+
+    print(f"Reading columns from {train_file_path}...")
+
+    if not os.path.exists(train_file_path):
+        print("Error: train.csv not found.")
         return
-    template_df = pd.read_csv(TRAIN_FILE, nrows=1)
+    
+    template_df = pd.read_csv(train_file_path, nrows=1)
     columns = template_df.columns
     
     # 2. Define Helper to make segments
@@ -56,7 +71,10 @@ def generate_market_cycle():
     full_demo['date_id'] = range(2000, 2000 + len(full_demo))
     
     # 5. Save
-    output_path = 'data/demo_market_cycle.csv'
+    data_dir = os.path.join(repo_root, "data")
+    os.makedirs(data_dir, exist_ok=True)
+    output_path = os.path.join(data_dir, "bull_market_test.csv")
+    
     full_demo.to_csv(output_path, index=False)
     
     print(f">>> SUCCESS! Created {output_path}")
