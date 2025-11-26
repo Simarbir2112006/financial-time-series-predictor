@@ -200,12 +200,9 @@ python generate_bull_market.py
 
 ---
 
-## 7 — Screenshots
+## 7 — Walkthrough
 
-Add your visual assets to docs/images and keep names consistent.
-
-![Dashboard](docs/images/dashboard.png)
-![Feature Importance](docs/images/feature_importance.png)
+![Dashboard](assets/walkthorugh.mp4)
 
 ---
 
@@ -232,12 +229,7 @@ The repository is implemented with a modular code organization that blends objec
 
 ## 9 — UML & Diagrams (placeholders)
 
-Add diagrams in docs/images:
-- docs/images/uml_class_diagram.png
-- docs/images/uml_sequence_training.png
-- docs/images/uml_deployment.png
-
-These files should show class relationships between pipeline components, sequence during training, and deployment topology (UI, model artifacts, storage).
+![UML](assets/financial-time-series-predictor-pipleine.drawio.png)
 
 ---
 
