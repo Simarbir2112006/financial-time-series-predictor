@@ -265,7 +265,7 @@ This project is published under the MIT License. See LICENSE for the full terms.
 
 ## 13 — Author
 
-- Name: Simarbir Singh Sandhu (GitHub: Simarbir2112006)
+- Name: Simarbir Singh Sandhu
 - GitHub: [Simarbir2112006](https://github.com/Simarbir2112006)
 - LinkedIn: [Simarbir Singh Sandhu](https://www.linkedin.com/in/simarbir-singh-sandhu/)
 - X: [sandhusimarbir](https://x.com/sandhusimarbir)
