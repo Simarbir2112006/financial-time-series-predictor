@@ -7,7 +7,7 @@ AI-driven hybrid LightGBM–Ridge model for dynamic financial time-series alloca
 [![License](https://img.shields.io/github/license/Simarbir2112006/financial-time-series-predictor)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/Simarbir2112006/financial-time-series-predictor)](https://github.com/Simarbir2112006/financial-time-series-predictor)
 [![Stars](https://img.shields.io/github/stars/Simarbir2112006/financial-time-series-predictor?style=social)](https://github.com/Simarbir2112006/financial-time-series-predictor/stargazers)
-[![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?logo=streamlit&logoColor=white)](https://financial-time-series-predictor.streamlit.app/)
 
 ---
 
@@ -193,6 +193,7 @@ streamlit run ui/app.py
 
 Quick demo data generation
 ```bash
+cd synthetic_data_generator
 python generate_demo_cycle.py
 python generate_bull_market.py
 ```
@@ -204,7 +205,6 @@ python generate_bull_market.py
 Add your visual assets to docs/images and keep names consistent.
 
 ![Dashboard](docs/images/dashboard.png)
-![Backtest](docs/images/backtest.png)
 ![Feature Importance](docs/images/feature_importance.png)
 
 ---
