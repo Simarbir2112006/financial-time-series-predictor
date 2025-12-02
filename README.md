@@ -250,8 +250,6 @@ Key files and their purpose:
 - Data: pandas, numpy
 - Modeling: scikit-learn, lightgbm
 - UI: Streamlit
-- Serialization: joblib / pickle
-- DevOps: GitHub (repo), recommended GitHub Actions CI
 
 See requirements.txt for declared dependency versions.
 
