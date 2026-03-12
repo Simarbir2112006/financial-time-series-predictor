@@ -131,4 +131,4 @@ MIT — see [LICENSE](LICENSE).
 ## Author
 
 **Simarbir Singh Sandhu**  
-[GitHub](https://github.com/Simarbir2112006) · [LinkedIn](https://www.linkedin.com/in/simarbir-singh-sandhu/) · [X](https://x.com/sandhusimarbir)
+[GitHub](https://github.com/Simarbir2112006) · [Kaggle](https://www.kaggle.com/simarbirsinghsandhu) · [LinkedIn](https://www.linkedin.com/in/simarbir-singh-sandhu/) · [X](https://x.com/sandhusimarbir)
